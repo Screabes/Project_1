@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogSort</class>
+ <widget class="QDialog" name="DialogSort">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>210</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>410</width>
+    <height>210</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>410</width>
+    <height>210</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Выбор типа сортировки</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="0">
+    <widget class="QRadioButton" name="ButtonSortByCarbohydrates">
+     <property name="text">
+      <string>По углеводам(возрастание)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="Cancel">
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="Sort">
+     <property name="text">
+      <string>Сортировать</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QRadioButton" name="ButtonSortByName">
+     <property name="text">
+      <string>По названию(А-Я)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QRadioButton" name="ButtonSortByFats">
+     <property name="text">
+      <string>По жирам(возрастание)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" rowspan="2">
+    <widget class="QRadioButton" name="ButtonSortByProteins">
+     <property name="text">
+      <string>По белкам(убывание)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Подстветить&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="Number"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QCheckBox" name="ButtonProteins">
+     <property name="text">
+      <string>б</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QCheckBox" name="ButtonFats">
+     <property name="text">
+      <string>ж</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QCheckBox" name="ButtonCarbohydrates">
+     <property name="text">
+      <string>у</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="BoxChoice">
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Больше заданного </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Меньше заданного </string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>ButtonSortByName</tabstop>
+  <tabstop>ButtonSortByProteins</tabstop>
+  <tabstop>ButtonSortByFats</tabstop>
+  <tabstop>ButtonSortByCarbohydrates</tabstop>
+  <tabstop>BoxChoice</tabstop>
+  <tabstop>Number</tabstop>
+  <tabstop>ButtonProteins</tabstop>
+  <tabstop>ButtonFats</tabstop>
+  <tabstop>ButtonCarbohydrates</tabstop>
+  <tabstop>Sort</tabstop>
+  <tabstop>Cancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
